@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Font blocks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .block {
+            width: 15%;
+            height: 200px;
+            padding: 10px;
+            background-color: #efce8f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            font-weight: 400;
+            font-style: normal;
+            box-shadow: 8px 8px 5px -2px rgba(77, 59, 0, 0.15);
+        }
+        .rubik {
+            font-family: "Rubik Pixels", system-ui;
+        }
+        .sedgwick {
+            font-family: "Sedgwick Ave Display", cursive;
+        }
+        .dancing {
+            font-family: "Dancing Script", cursive;
+        }
+        .fjalla {
+            font-family: "Fjalla One", sans-serif;
+        }
+        .indie {
+            font-family: "Indie Flower", cursive;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="block rubik">Rubik Pixels</div>
+    <div class="block sedgwick">Sedgwick Ave Display</div>
+    <div class="block dancing">Dancing Script</div>
+    <div class="block fjalla">Fjalla One</div>
+    <div class="block indie">Indie Flower</div>
+</div>
+</body>
+</html>
