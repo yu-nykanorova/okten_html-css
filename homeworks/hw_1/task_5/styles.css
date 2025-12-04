@@ -14,7 +14,7 @@ body {
 }
 
 div {
-    padding: 100px 150px;
+    padding: 80px 50px;
     background-color: rgba(0, 0, 0, 0.65);
 }
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    margin: 20px 0;
+    margin: 30px 0 20px 0;
     font-size: 38px;
 }
 
@@ -38,11 +38,11 @@ img {
 
 h3 {
     margin-top: 5px;
-    font-size: 34px;
+    font-size: 32px;
 }
 
 span {
-    font-size: 30px;
+    font-size: 28px;
     color: #ffe0a0;
 }
 
