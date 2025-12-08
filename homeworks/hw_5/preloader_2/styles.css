@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DynaPuff", sans-serif;
+    background-image: url("img/bg_blocks.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.preloader__box {
+    width: 40vw;
+    margin: 15% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preloader__item {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.odd {
+    animation: transformingToTop 4s infinite linear;
+}
+
+.even {
+    animation: transformingToBottom 4s infinite linear;
+}
+
+@keyframes transformingToTop {
+    0% {
+        transform: scale(1) translateY(0);
+        color: black;
+    }
+    20% {
+        transform: scale(0.8) translateY(0);
+        color: #0d405c;
+    }
+    40% {
+        transform: scale(1.2) translateY(0);
+        color: #085f8e;
+    }
+    60% {
+        transform: scale(1.2) translateY(-30px);
+        color: #00b1a2;
+    }
+    80% {
+        transform: scale(1.2) translateY(30px);
+        color: #085f8e;
+    }
+    100% {
+        transform: scale(1) translateY(0);
+        color: black;
+    }
+}
+
+@keyframes transformingToBottom {
+    0% {
+        transform: scale(1) translateY(0);
+        color: black;
+    }
+    20% {
+        transform: scale(1.2) translateY(0);
+        color: #0d5c44;
+    }
+    40% {
+        transform: scale(0.8) translateY(0);
+        color: #088e37;
+    }
+    60% {
+        transform: scale(0.8) translateY(30px);
+        color: #bab900;
+    }
+    80% {
+        transform: scale(0.8) translateY(-30px);
+        color: #088e1e;
+    }
+    100% {
+        transform: scale(1) translateY(0);
+        color: black;
+    }
+}
