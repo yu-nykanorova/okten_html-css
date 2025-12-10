@@ -4,3 +4,23 @@
     box-sizing: border-box;
     list-style-type: none;
 }
+
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #020202;
+    background-color: #fcfcfc;
+}
+
+.wrapper {
+    padding: 50px;
+}
+
+.block:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.block__title {
+    color: #3c5181;
+    margin-bottom: 20px;
+}
