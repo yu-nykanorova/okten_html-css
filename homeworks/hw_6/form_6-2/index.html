@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form 6.2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="login__box">
+        <h1>Instagram</h1>
+        <form>
+            <label for="login" class="login">
+                <input type="text" id="login" placeholder="Номер телефону, ім'я користувача або е..." required>
+            </label>
+            <label for="password" class="password">
+                <input type="password" id="password" placeholder="Пароль" required>
+            </label>
+            <button type="submit">Увійти</button>
+        </form>
+        <p>АБО</p>
+        <div class="facebook">
+            <img src="icons/facebook_icon.png" alt="facebook"/>
+            <a href="https://www.facebook.com/login/?locale=ru_RU" target="_blank">Увійти через Facebook</a>
+        </div>
+        <a href="#" class="forgot">Забули пароль?</a>
+    </div>
+    <div class="signup__box">
+        <p>Не маєте облікового запису? <a href="https://www.instagram.com/" target="_blank">Зареєструйтеся</a></p>
+    </div>
+</div>
+</body>
+</html>
