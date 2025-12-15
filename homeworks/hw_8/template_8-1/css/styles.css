@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #f3f5f6;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 1190px;
+    margin: 64px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    row-gap: 64px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 372px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    margin: 20px 0 15px 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #000;
+}
+
+.card-description {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3c3c43;
+}
