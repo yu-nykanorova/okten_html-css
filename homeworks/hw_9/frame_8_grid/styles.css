@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 22vh 56vh 22vh;
+}
+
+header, footer {
+    background: #d9d9d9;
+}
+
+main {
+    background: #a4a4a4;
+}

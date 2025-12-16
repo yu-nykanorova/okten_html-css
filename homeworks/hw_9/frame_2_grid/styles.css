@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    background: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-columns: 73vw 27vw;
+    grid-template-areas:
+        "header header"
+        "section-top aside-top"
+        "section-middle aside-top"
+        "section-middle aside-bottom"
+        "section-bottom aside-bottom"
+        "footer footer";
+}
+
+header, footer {
+    color: black;
+}
+
+header, section, aside, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    grid-area: header;
+    background-color: #8d8484;
+}
+
+.section-top {
+    grid-area: section-top;
+    background-color: #776969;
+}
+
+.section-middle {
+    grid-area: section-middle;
+    background-color: #643030;
+}
+
+.section-bottom {
+    grid-area: section-bottom;
+    background-color: #441818;
+}
+
+.aside-top {
+    grid-area: aside-top;
+    background-color: #937575;
+}
+
+.aside-bottom {
+    grid-area: aside-bottom;
+    background-color: #644c4c;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #bdbdbd;
+}
+
